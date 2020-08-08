@@ -11,7 +11,7 @@ const VideoDetail = ({video, autoplay}) => {
         );
     }
 
-    const videoSrc = `http://www.youtube.com/embed/${video.id.videoId}?autoplay=${autoplay}`; 
+    const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}?autoplay=${autoplay}`; 
     return (
     <div className="ui segment">
         <div className="ui embed">
